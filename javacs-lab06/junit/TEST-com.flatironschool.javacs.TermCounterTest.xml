@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Eehitas-MacBook-Air.local" name="com.flatironschool.javacs.TermCounterTest" skipped="0" tests="1" time="0.785" timestamp="2016-06-22T04:48:44">
+<testsuite errors="0" failures="0" hostname="Eehitas-MacBook-Air.local" name="com.flatironschool.javacs.TermCounterTest" skipped="0" tests="1" time="0.783" timestamp="2016-06-22T04:50:49">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -17,7 +17,6 @@
     <property name="java.runtime.version" value="1.8.0_77-b03" />
     <property name="env.MY_RUBY_HOME" value="/Users/Eehita/.rvm/rubies/ruby-2.3.0" />
     <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.6IB94j8QCP/Render" />
-    <property name="env.JAVA_MAIN_CLASS_12145" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.DISPLAY" value="/private/tmp/com.apple.launchd.wqp6pMJJ45/org.macosforge.xquartz:0" />
     <property name="env.rvm_version" value="1.27.0 (latest)" />
     <property name="user.name" value="Eehita" />
@@ -36,6 +35,7 @@
     <property name="env.RUBY_VERSION" value="ruby-2.3.0" />
     <property name="java.version" value="1.8.0_77" />
     <property name="user.timezone" value="" />
+    <property name="env.JAVA_MAIN_CLASS_12231" value="org.apache.tools.ant.launch.Launcher" />
     <property name="sun.arch.data.model" value="64" />
     <property name="env._system_name" value="OSX" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
@@ -82,7 +82,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/bin:/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/jsoup-1.8.3.jar:/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/junit-4.12.jar:/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.TermCounterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.TermCounterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher7769673074425198398.properties propsfile=/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/junit3781353464226263871.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.TermCounterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/junit/TEST-com.flatironschool.javacs.TermCounterTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/junitvmwatcher3447724353850803995.properties propsfile=/Users/Eehita/Desktop/cs-making-an-indexer-lab-codeU/javacs-lab06/junit5101186066622473075.properties" />
     <property name="env.TERM_SESSION_ID" value="EEE2AD72-0921-41EE-B112-9CCEC0C86C6D" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -109,14 +109,7 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.TermCounterTest" name="testSize" time="0.43">
-    <failure message="&#xa;Expected: is &lt;4798&gt;&#xa;     but: was &lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;4798&gt;
-     but: was &lt;-1&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.flatironschool.javacs.TermCounterTest.testSize(TermCounterTest.java:37)
-</failure>
-  </testcase>
+  <testcase classname="com.flatironschool.javacs.TermCounterTest" name="testSize" time="0.404" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
